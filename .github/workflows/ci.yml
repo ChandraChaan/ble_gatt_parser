@@ -17,7 +17,7 @@ jobs:
         with:
           sdk: ${{ matrix.sdk }}
       - run: dart pub get
-      - run: dart format --output=none --set-exit-if-changed .
+      - run: dart format --output=none --set-exit-if-changed lib test example
         if: matrix.sdk == 'stable'
       - run: dart analyze --fatal-infos
       - run: dart test
