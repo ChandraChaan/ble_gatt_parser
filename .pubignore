@@ -1,0 +1,7 @@
+# Published files follow .gitignore, plus these.
+.dart_tool/
+pubspec.lock
+build/
+coverage/
+demo/
+.github/

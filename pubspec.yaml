@@ -2,9 +2,12 @@ name: ble_gatt_parser
 description: >-
   Parse standard Bluetooth LE GATT characteristics (heart rate, blood pressure,
   temperature, weight, glucose, SpO2, cycling, running) into typed Dart objects.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/ChandraChaan/ble_gatt_parser
 issue_tracker: https://github.com/ChandraChaan/ble_gatt_parser/issues
+screenshots:
+  - description: Live playground parsing heart rate, blood pressure, SpO2 and cycling power notifications.
+    path: doc/demo.gif
 topics:
   - bluetooth
   - ble

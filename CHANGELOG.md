@@ -1,3 +1,7 @@
+## 0.1.1
+
+- Adds a live web playground and a demo GIF to the README.
+
 ## 0.1.0
 
 - First release.

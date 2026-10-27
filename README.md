@@ -4,6 +4,12 @@
 [![CI](https://github.com/ChandraChaan/ble_gatt_parser/actions/workflows/ci.yml/badge.svg)](https://github.com/ChandraChaan/ble_gatt_parser/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
+<p align="center">
+  <a href="https://chandrachaan.github.io/ble_gatt_parser/"><img src="https://raw.githubusercontent.com/ChandraChaan/ble_gatt_parser/main/doc/demo.gif" alt="ble_gatt_parser playground: simulated devices streaming notifications, with the raw bytes and parsed values side by side" width="720"></a>
+  <br>
+  <b><a href="https://chandrachaan.github.io/ble_gatt_parser/">Try the live playground</a></b>: no Bluetooth hardware needed
+</p>
+
 Turn the raw bytes from Bluetooth heart-rate straps, blood pressure cuffs, thermometers, scales, glucose meters, pulse oximeters and cycling or running sensors into typed Dart objects.
 
 Your BLE plugin hands you a `List<int>`. This package tells you what it means.
